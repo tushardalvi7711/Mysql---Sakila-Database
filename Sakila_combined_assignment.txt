@@ -1,0 +1,45 @@
+Sakila database based assignments - 
+
+Pre-requisite - 
+a) Use the Sakila sample database available at 
+https://dev.mysql.com/doc/index-other.html
+
+b) Install MySQL and load the Sakila database 
+
+c) Go through the database, run sample queries and make sure you understand the database structure. This is essential to understand the tables which need to be used for the assignments.
+
+
+Assignments - 
+==============SQL Queries ==================
+1. Return the full names (first and last) and address of customers with “SON” in their last name, ordered by their first name.
+
+2. Find all the addresses where the second address is not empty (i.e., contains some text), and return these second addresses sorted.
+
+3. In how many film categories is the average difference between the film replacement cost and the rental rate larger than 17?
+
+4. Find the address district(s) name(s) such that the minimal postal code in the district(s) is maximal over all the districts. Make sure your query ignores empty postal codes and district names.
+
+5. List all the actor names with their film names.
+
+6. Return the first and last names of actors who played in a film involving a “Crocodile” and a “Shark”, along with the release year of the movie, sorted by the actors’ last names.
+
+7. How many films involve a “Crocodile” and a “Shark”?
+
+8. Find the names (first and last) of all the actors and custumers whose first name is the same as the first name of the actor with ID 8. Do not return the actor with ID 8 himself. Note that you cannot use the name of the actor with ID 8 as a constant (only the ID). There is more than one way to solve this question, but you need to provide only one solution.
+
+9. Find all the film categories in which there are between 55 and 65 films. Return the names of these categories and the number of films per category, sorted by the number of films.
+
+
+======Stored Procedure=========
+
+10. Create a stored procedure that creates a list of customers that have a rental_id, but no payment_id i.e. those customers who have not paid.
+Store the names of customers who have not paid to a table named 'DelayedPayment'.
+Store the names of customers and the payment amount who have paid to a table named 'OntimePayment'.
+
+=======Load statement===========
+
+11. Take film_text table from Sakila database, export data to CSV, write a load statement to load the data back into a new table. Remove the extra spaces at the end of every line with an update statement. 
+
+Note - 
+i) All code should be well indented and documented. 
+ii) Please test all code before submitting it
