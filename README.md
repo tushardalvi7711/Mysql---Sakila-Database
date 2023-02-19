@@ -12,7 +12,7 @@ b) Install MySQL and load the Sakila database
 
 c) Go through the database, run sample queries and make sure you understand the database structure. This is essential to understand the tables which need to be used for the assignments.
 
-Installaton :Workbench,Mysql server
+Installaton : Mysql Workbench,Mysql server
 
 Metadata :Sakila Database dataset
 
